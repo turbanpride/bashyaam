@@ -1,0 +1,37 @@
+.help-aboutus-wrapper {
+  .div--icon--round {
+    position: relative;
+    .move-left{
+      left: 15%;
+      text-align: end;
+    }
+    .move-right{
+      left: 57%;
+      text-align: start;
+    }
+     .details {
+      // text-align: end;
+      position: absolute;
+      width: 27%;
+      // left: 15%;
+      top: 9%;
+      .title {
+        margin-bottom: 0px;
+        font-size: 20px;
+        font-weight: 700;
+        font-family: sans-serif;
+      }
+      .subtitle {
+        margin-bottom: 0px;
+        font-size: 18px;
+        font-weight: 700;
+        font-family: sans-serif;
+      }
+      .details-inside {
+        opacity: 0.9;
+        color: darkslategray;
+        font-family: sans-serif;
+      }
+    }
+  }
+}

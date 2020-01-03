@@ -1,0 +1,392 @@
+.webpage-wrapper {
+  .div--menu-items {
+    background-image: url("./../icons/wallpaper1.jpg");
+    background-color: grey;
+    text-align: center;
+    height: 450px;
+    width: 100%;
+    .div--title {
+      .div-menus {
+        padding-top: 1%;
+        text-align: end;
+        .items-menu {
+          padding: 2%;
+          display: inline;
+          color: #fff;
+          font-weight: 600;
+          span {
+            cursor: pointer;
+          }
+        }
+      }
+    }
+    .div--welcome {
+      color: #fff;
+      font-size: 32px;
+      font-style: italic;
+      text-align: center;
+      padding-top: 9%;
+      font-family: initial;
+    }
+    .div--greeting {
+      color: #fff;
+      font-size: 55px;
+      /* font-style: italic; */
+      text-align: center;
+      /* padding-top: 9%; */
+      font-family: fantasy;
+      letter-spacing: 5px;
+    }
+    button {
+      margin-top: 2%;
+      background: rgb(254, 209, 54);
+      outline: none;
+      border: none;
+      color: #fff;
+      font-weight: 600;
+      padding: 1% 2%;
+      cursor: pointer;
+    }
+  }
+  .div--services {
+    .services-title {
+      font-weight: 700;
+      font-size: 23px;
+      text-align: center;
+      margin-top: 4%;
+    }
+    .services-subtitle {
+      font-style: italic;
+      font-weight: 400;
+      text-align: center;
+    }
+    .div--service--icons {
+      text-align: center;
+      .title {
+        font-weight: 700;
+        margin-bottom: 2px;
+        margin-top: 6px;
+      }
+      .div--icons {
+        padding: 2% 2% 0% 2%;
+        display: inline-block;
+        width: 27%;
+      }
+      .icon--first--service {
+        .image--first--service {
+          margin-left: 38%;
+          background-image: url("./../icons/icon1.png");
+          width: 75px;
+          height: 75px;
+        }
+      }
+      .icon--second--service {
+        .image--second--service {
+          margin-left: 34%;
+          background-image: url("./../icons/icon2.png");
+          width: 75px;
+          height: 75px;
+        }
+      }
+      .icon--third--service {
+        .image--third--service {
+          margin-left: 36%;
+          background-image: url("./../icons/icon3.png");
+          width: 75px;
+          height: 75px;
+        }
+      }
+    }
+  }
+  .div--portfolio {
+    text-align: center;
+    background: rgb(247, 247, 247);
+    .portfolio-title {
+      font-weight: 700;
+      font-size: 23px;
+      text-align: center;
+      margin-top: 3%;
+      padding-top: 3%;
+    }
+    .portfolio-subtitle {
+      font-style: italic;
+      font-weight: 400;
+      text-align: center;
+      margin-bottom: 2%;
+    }
+    .div--portfolio--icons {
+      padding-left: 3%;
+      padding-top: 1%;
+      .div--icons {
+        margin-left: 2%;
+        padding: 2% 2% 0% 2%;
+        display: inline-block;
+        width: 24%;
+        background: #fff;
+      }
+      .icon--first--portfolio {
+        .title {
+          font-weight: 700;
+          letter-spacing: -1px;
+          margin-bottom: 0px;
+          margin-top: 2%;
+        }
+        .subtitle {
+          font-style: italic;
+          font-weight: 400;
+          margin-bottom: 11px;
+        }
+        .image--first--portfolio {
+          //   margin-left: 38%;
+          background-image: url("./../icons/pic1.png");
+          width: 266px;
+          height: 274px;
+        }
+        .image--forth--portfolio {
+          //   margin-left: 38%;
+          background-image: url("./../icons/pic4.png");
+          width: 266px;
+          height: 274px;
+        }
+      }
+      .icon--second--portfolio {
+        .title {
+          font-weight: 700;
+          letter-spacing: -1px;
+          margin-bottom: 0px;
+          margin-top: 2%;
+        }
+        .subtitle {
+          font-style: italic;
+          font-weight: 400;
+          margin-bottom: 11px;
+        }
+        .image--second--portfolio {
+          //   margin-left: 34%;
+          background-image: url("./../icons/pic2.png");
+          width: 266px;
+          height: 274px;
+        }
+        .image--fifth--portfolio {
+          //   margin-left: 34%;
+          background-image: url("./../icons/pic5.png");
+          width: 266px;
+          height: 274px;
+        }
+      }
+      .icon--third--portfolio {
+        .title {
+          font-weight: 700;
+          letter-spacing: -1px;
+          margin-bottom: 0px;
+          margin-top: 2%;
+        }
+        .subtitle {
+          font-style: italic;
+          font-weight: 400;
+          margin-bottom: 11px;
+        }
+        .image--third--portfolio {
+          //   margin-left: 36%;
+          background-image: url("./../icons/pic3.png");
+          width: 266px;
+          height: 274px;
+        }
+        .image--sixth--portfolio {
+          //   margin-left: 36%;
+          background-image: url("./../icons/pic6.png");
+          width: 266px;
+          height: 274px;
+        }
+      }
+    }
+  }
+  .row--portfolio2 {
+    padding-bottom: 2%;
+  }
+  .div--about--us {
+    .aboutUs-title {
+      font-weight: 700;
+      font-size: 23px;
+      text-align: center;
+      margin-top: 4%;
+    }
+    .aboutUs-subtitle {
+      font-style: italic;
+      font-weight: 400;
+      text-align: center;
+      margin-bottom: 2%;
+    }
+    .div--icon--round {
+      text-align: center;
+      margin-bottom: 4%;
+      position: relative;
+    //  .details {
+    //   text-align: end;
+    //   position: absolute;
+    //   width: 27%;
+    //   left: 15%;
+    //   top: 9%;
+    //   .title {
+    //     margin-bottom: 0px;
+    //     font-size: 20px;
+    //     font-weight: 700;
+    //     font-family: sans-serif;
+    //   }
+    //   .subtitle {
+    //     margin-bottom: 0px;
+    //     font-size: 18px;
+    //     font-weight: 700;
+    //     font-family: sans-serif;
+    //   }
+    //   .details {
+    //     opacity: 0.9;
+    //     color: darkslategray;
+    //     font-family: sans-serif;
+    //   }
+    // }
+      .icon--round {
+        display: inline-block;
+        width: 170px;
+        height: 170px;
+        background-repeat: no-repeat;
+      }
+      .icon--round1 {
+        background-image: url("./../icons/roundicon1.png");
+      }
+      .icon--round2 {
+        background-image: url("./../icons/roundicon2.png");
+      }
+      .icon--round3 {
+        background-image: url("./../icons/roundicon3.png");
+      }
+      .icon--round4 {
+        background-image: url("./../icons/roundicon4.png");
+      }
+      .icon--round5 {
+        background-image: url("./../icons/roundicon5.png");
+      }
+    }
+  }
+  .div--ourTeam {
+    background: rgb(247, 247, 247);
+    padding-left: 3%;
+    padding-top: 1%;
+    padding-bottom: 4%;
+    .social-media-icon {
+      background-image: url("./../icons/socialmedia1.png");
+      width: 86px;
+      height: 28px;
+      background-repeat: no-repeat;
+      display: inline-block;
+    }
+    .ourTeam-title {
+      font-weight: 700;
+      font-size: 35px;
+      text-align: center;
+      margin-top: 4%;
+    }
+    .ourTeam-subtitle {
+      font-style: italic;
+      font-weight: 400;
+      text-align: center;
+      margin-bottom: 2%;
+    }
+    .sub-title {
+      margin-bottom: 0px;
+    }
+    .div--ourTeam--icons {
+      text-align: center;
+      .div--icons {
+        margin-left: 2%;
+        padding: 2% 2% 0% 2%;
+        display: inline-block;
+        width: 15%;
+        // background: #fff;
+      }
+      .icon--first--ourTeam {
+        .title {
+          font-weight: 700;
+          letter-spacing: -1px;
+          margin-bottom: 0px;
+          margin-top: 2%;
+        }
+        .subtitle {
+          font-style: italic;
+          font-weight: 400;
+          margin-bottom: 11px;
+        }
+        .image--first--ourTeam {
+          //   margin-left: 38%;
+          background-image: url("./../icons/teamPic1.png");
+          width: 135;
+          height: 131px;
+          background-repeat: no-repeat;
+        }
+      }
+      .icon--second--ourTeam {
+        .title {
+          font-weight: 700;
+          letter-spacing: -1px;
+          margin-bottom: 0px;
+          margin-top: 2%;
+        }
+        .subtitle {
+          font-style: italic;
+          font-weight: 400;
+          margin-bottom: 11px;
+        }
+        .image--second--ourTeam {
+          //   margin-left: 34%;
+          background-image: url("./../icons/teamPic2.png");
+          width: 135;
+          height: 131px;
+          background-repeat: no-repeat;
+        }
+      }
+      .icon--third--ourTeam {
+        .title {
+          font-weight: 700;
+          letter-spacing: -1px;
+          margin-bottom: 0px;
+          margin-top: 2%;
+        }
+        .subtitle {
+          font-style: italic;
+          font-weight: 400;
+          margin-bottom: 11px;
+        }
+        .image--third--ourTeam {
+          //   margin-left: 36%;
+          background-image: url("./../icons/teamPic3.png");
+          background-repeat: no-repeat;
+          width: 128px;
+          height: 131px;
+        }
+      }
+    }
+    .div--quote {
+      text-align: center;
+      div {
+        font-size: 14px;
+        margin-left: 30%;
+        width: 41%;
+        margin-top: 1%;
+        color: gray;
+      }
+    }
+  }
+  .div--sponsored-partners {
+    margin-top: 2%;
+    text-align: center;
+    margin-bottom: 2%;
+    div {
+      margin-left: 5%;
+      width: 33%;
+      background-image: url("./../icons/brandNames.png");
+      height: 28px;
+      background-repeat: no-repeat;
+      display: inline-block;
+    }
+  }
+}

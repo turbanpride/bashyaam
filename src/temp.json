@@ -1,0 +1,25 @@
+[
+    {
+        "name":"P",
+        "Age":20,
+        "Sex":"M",
+        "Salary":20000
+    },{
+        "name":"A",
+        "Age":25,
+        "Sex":"F",
+        "Salary":40000
+    },
+    {
+        "name":"Q",
+        "Age":20,
+        "Sex":"F",
+        "Salary":50000
+    },
+    {
+        "name":"T",
+        "Age":26,
+        "Sex":"F",
+        "Salary":20000
+    }
+]
